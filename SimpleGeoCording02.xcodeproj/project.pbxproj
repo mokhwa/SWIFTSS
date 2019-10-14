@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F57227D023543E1D00747F0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57227CF23543E1D00747F0F /* AppDelegate.swift */; };
+		F57227D223543E1D00747F0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57227D123543E1D00747F0F /* ViewController.swift */; };
+		F57227D523543E1D00747F0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F57227D323543E1D00747F0F /* Main.storyboard */; };
+		F57227D723543E2B00747F0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F57227D623543E2B00747F0F /* Assets.xcassets */; };
+		F57227DA23543E2B00747F0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F57227D823543E2B00747F0F /* LaunchScreen.storyboard */; };
+		F57227E523543E2B00747F0F /* SimpleGeoCording02Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57227E423543E2B00747F0F /* SimpleGeoCording02Tests.swift */; };
+		F57227F023543E2B00747F0F /* SimpleGeoCording02UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57227EF23543E2B00747F0F /* SimpleGeoCording02UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F57227E123543E2B00747F0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F57227C423543E1D00747F0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F57227CB23543E1D00747F0F;
+			remoteInfo = SimpleGeoCording02;
+		};
+		F57227EC23543E2B00747F0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F57227C423543E1D00747F0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F57227CB23543E1D00747F0F;
+			remoteInfo = SimpleGeoCording02;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F57227CC23543E1D00747F0F /* SimpleGeoCording02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleGeoCording02.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F57227CF23543E1D00747F0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F57227D123543E1D00747F0F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F57227D423543E1D00747F0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F57227D623543E2B00747F0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F57227D923543E2B00747F0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F57227DB23543E2B00747F0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F57227E023543E2B00747F0F /* SimpleGeoCording02Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleGeoCording02Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F57227E423543E2B00747F0F /* SimpleGeoCording02Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleGeoCording02Tests.swift; sourceTree = "<group>"; };
+		F57227E623543E2B00747F0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F57227EB23543E2B00747F0F /* SimpleGeoCording02UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleGeoCording02UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F57227EF23543E2B00747F0F /* SimpleGeoCording02UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleGeoCording02UITests.swift; sourceTree = "<group>"; };
+		F57227F123543E2B00747F0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F57227C923543E1D00747F0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F57227DD23543E2B00747F0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F57227E823543E2B00747F0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F57227C323543E1D00747F0F = {
+			isa = PBXGroup;
+			children = (
+				F57227CE23543E1D00747F0F /* SimpleGeoCording02 */,
+				F57227E323543E2B00747F0F /* SimpleGeoCording02Tests */,
+				F57227EE23543E2B00747F0F /* SimpleGeoCording02UITests */,
+				F57227CD23543E1D00747F0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F57227CD23543E1D00747F0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F57227CC23543E1D00747F0F /* SimpleGeoCording02.app */,
+				F57227E023543E2B00747F0F /* SimpleGeoCording02Tests.xctest */,
+				F57227EB23543E2B00747F0F /* SimpleGeoCording02UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F57227CE23543E1D00747F0F /* SimpleGeoCording02 */ = {
+			isa = PBXGroup;
+			children = (
+				F57227CF23543E1D00747F0F /* AppDelegate.swift */,
+				F57227D123543E1D00747F0F /* ViewController.swift */,
+				F57227D323543E1D00747F0F /* Main.storyboard */,
+				F57227D623543E2B00747F0F /* Assets.xcassets */,
+				F57227D823543E2B00747F0F /* LaunchScreen.storyboard */,
+				F57227DB23543E2B00747F0F /* Info.plist */,
+			);
+			path = SimpleGeoCording02;
+			sourceTree = "<group>";
+		};
+		F57227E323543E2B00747F0F /* SimpleGeoCording02Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F57227E423543E2B00747F0F /* SimpleGeoCording02Tests.swift */,
+				F57227E623543E2B00747F0F /* Info.plist */,
+			);
+			path = SimpleGeoCording02Tests;
+			sourceTree = "<group>";
+		};
+		F57227EE23543E2B00747F0F /* SimpleGeoCording02UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F57227EF23543E2B00747F0F /* SimpleGeoCording02UITests.swift */,
+				F57227F123543E2B00747F0F /* Info.plist */,
+			);
+			path = SimpleGeoCording02UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F57227CB23543E1D00747F0F /* SimpleGeoCording02 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F57227F423543E2B00747F0F /* Build configuration list for PBXNativeTarget "SimpleGeoCording02" */;
+			buildPhases = (
+				F57227C823543E1D00747F0F /* Sources */,
+				F57227C923543E1D00747F0F /* Frameworks */,
+				F57227CA23543E1D00747F0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleGeoCording02;
+			productName = SimpleGeoCording02;
+			productReference = F57227CC23543E1D00747F0F /* SimpleGeoCording02.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F57227DF23543E2B00747F0F /* SimpleGeoCording02Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F57227F723543E2B00747F0F /* Build configuration list for PBXNativeTarget "SimpleGeoCording02Tests" */;
+			buildPhases = (
+				F57227DC23543E2B00747F0F /* Sources */,
+				F57227DD23543E2B00747F0F /* Frameworks */,
+				F57227DE23543E2B00747F0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F57227E223543E2B00747F0F /* PBXTargetDependency */,
+			);
+			name = SimpleGeoCording02Tests;
+			productName = SimpleGeoCording02Tests;
+			productReference = F57227E023543E2B00747F0F /* SimpleGeoCording02Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F57227EA23543E2B00747F0F /* SimpleGeoCording02UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F57227FA23543E2B00747F0F /* Build configuration list for PBXNativeTarget "SimpleGeoCording02UITests" */;
+			buildPhases = (
+				F57227E723543E2B00747F0F /* Sources */,
+				F57227E823543E2B00747F0F /* Frameworks */,
+				F57227E923543E2B00747F0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F57227ED23543E2B00747F0F /* PBXTargetDependency */,
+			);
+			name = SimpleGeoCording02UITests;
+			productName = SimpleGeoCording02UITests;
+			productReference = F57227EB23543E2B00747F0F /* SimpleGeoCording02UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F57227C423543E1D00747F0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = ParkSunjae;
+				TargetAttributes = {
+					F57227CB23543E1D00747F0F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					F57227DF23543E2B00747F0F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F57227CB23543E1D00747F0F;
+					};
+					F57227EA23543E2B00747F0F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F57227CB23543E1D00747F0F;
+					};
+				};
+			};
+			buildConfigurationList = F57227C723543E1D00747F0F /* Build configuration list for PBXProject "SimpleGeoCording02" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F57227C323543E1D00747F0F;
+			productRefGroup = F57227CD23543E1D00747F0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F57227CB23543E1D00747F0F /* SimpleGeoCording02 */,
+				F57227DF23543E2B00747F0F /* SimpleGeoCording02Tests */,
+				F57227EA23543E2B00747F0F /* SimpleGeoCording02UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F57227CA23543E1D00747F0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F57227DA23543E2B00747F0F /* LaunchScreen.storyboard in Resources */,
+				F57227D723543E2B00747F0F /* Assets.xcassets in Resources */,
+				F57227D523543E1D00747F0F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F57227DE23543E2B00747F0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F57227E923543E2B00747F0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F57227C823543E1D00747F0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F57227D223543E1D00747F0F /* ViewController.swift in Sources */,
+				F57227D023543E1D00747F0F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F57227DC23543E2B00747F0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F57227E523543E2B00747F0F /* SimpleGeoCording02Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F57227E723543E2B00747F0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F57227F023543E2B00747F0F /* SimpleGeoCording02UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F57227E223543E2B00747F0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F57227CB23543E1D00747F0F /* SimpleGeoCording02 */;
+			targetProxy = F57227E123543E2B00747F0F /* PBXContainerItemProxy */;
+		};
+		F57227ED23543E2B00747F0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F57227CB23543E1D00747F0F /* SimpleGeoCording02 */;
+			targetProxy = F57227EC23543E2B00747F0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F57227D323543E1D00747F0F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F57227D423543E1D00747F0F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F57227D823543E2B00747F0F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F57227D923543E2B00747F0F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F57227F223543E2B00747F0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F57227F323543E2B00747F0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F57227F523543E2B00747F0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SimpleGeoCording02/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dit.co.kr.SimpleGeoCording02;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F57227F623543E2B00747F0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SimpleGeoCording02/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dit.co.kr.SimpleGeoCording02;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F57227F823543E2B00747F0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SimpleGeoCording02Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dit.co.kr.SimpleGeoCording02Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleGeoCording02.app/SimpleGeoCording02";
+			};
+			name = Debug;
+		};
+		F57227F923543E2B00747F0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SimpleGeoCording02Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dit.co.kr.SimpleGeoCording02Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleGeoCording02.app/SimpleGeoCording02";
+			};
+			name = Release;
+		};
+		F57227FB23543E2B00747F0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SimpleGeoCording02UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dit.co.kr.SimpleGeoCording02UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpleGeoCording02;
+			};
+			name = Debug;
+		};
+		F57227FC23543E2B00747F0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SimpleGeoCording02UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dit.co.kr.SimpleGeoCording02UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpleGeoCording02;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F57227C723543E1D00747F0F /* Build configuration list for PBXProject "SimpleGeoCording02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F57227F223543E2B00747F0F /* Debug */,
+				F57227F323543E2B00747F0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F57227F423543E2B00747F0F /* Build configuration list for PBXNativeTarget "SimpleGeoCording02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F57227F523543E2B00747F0F /* Debug */,
+				F57227F623543E2B00747F0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F57227F723543E2B00747F0F /* Build configuration list for PBXNativeTarget "SimpleGeoCording02Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F57227F823543E2B00747F0F /* Debug */,
+				F57227F923543E2B00747F0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F57227FA23543E2B00747F0F /* Build configuration list for PBXNativeTarget "SimpleGeoCording02UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F57227FB23543E2B00747F0F /* Debug */,
+				F57227FC23543E2B00747F0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F57227C423543E1D00747F0F /* Project object */;
+}
