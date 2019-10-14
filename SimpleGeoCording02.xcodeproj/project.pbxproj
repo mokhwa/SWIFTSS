@@ -12,26 +12,8 @@
 		F57227D523543E1D00747F0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F57227D323543E1D00747F0F /* Main.storyboard */; };
 		F57227D723543E2B00747F0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F57227D623543E2B00747F0F /* Assets.xcassets */; };
 		F57227DA23543E2B00747F0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F57227D823543E2B00747F0F /* LaunchScreen.storyboard */; };
-		F57227E523543E2B00747F0F /* SimpleGeoCording02Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57227E423543E2B00747F0F /* SimpleGeoCording02Tests.swift */; };
-		F57227F023543E2B00747F0F /* SimpleGeoCording02UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57227EF23543E2B00747F0F /* SimpleGeoCording02UITests.swift */; };
+		F57227FF23543EC900747F0F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F57227FE23543EC900747F0F /* MapKit.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		F57227E123543E2B00747F0F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F57227C423543E1D00747F0F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F57227CB23543E1D00747F0F;
-			remoteInfo = SimpleGeoCording02;
-		};
-		F57227EC23543E2B00747F0F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F57227C423543E1D00747F0F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F57227CB23543E1D00747F0F;
-			remoteInfo = SimpleGeoCording02;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		F57227CC23543E1D00747F0F /* SimpleGeoCording02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleGeoCording02.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,12 +23,7 @@
 		F57227D623543E2B00747F0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F57227D923543E2B00747F0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F57227DB23543E2B00747F0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F57227E023543E2B00747F0F /* SimpleGeoCording02Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleGeoCording02Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F57227E423543E2B00747F0F /* SimpleGeoCording02Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleGeoCording02Tests.swift; sourceTree = "<group>"; };
-		F57227E623543E2B00747F0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F57227EB23543E2B00747F0F /* SimpleGeoCording02UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleGeoCording02UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F57227EF23543E2B00747F0F /* SimpleGeoCording02UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleGeoCording02UITests.swift; sourceTree = "<group>"; };
-		F57227F123543E2B00747F0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F57227FE23543EC900747F0F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,20 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F57227DD23543E2B00747F0F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F57227E823543E2B00747F0F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				F57227FF23543EC900747F0F /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,9 +42,8 @@
 			isa = PBXGroup;
 			children = (
 				F57227CE23543E1D00747F0F /* SimpleGeoCording02 */,
-				F57227E323543E2B00747F0F /* SimpleGeoCording02Tests */,
-				F57227EE23543E2B00747F0F /* SimpleGeoCording02UITests */,
 				F57227CD23543E1D00747F0F /* Products */,
+				F57227FD23543EC800747F0F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,8 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				F57227CC23543E1D00747F0F /* SimpleGeoCording02.app */,
-				F57227E023543E2B00747F0F /* SimpleGeoCording02Tests.xctest */,
-				F57227EB23543E2B00747F0F /* SimpleGeoCording02UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,22 +68,12 @@
 			path = SimpleGeoCording02;
 			sourceTree = "<group>";
 		};
-		F57227E323543E2B00747F0F /* SimpleGeoCording02Tests */ = {
+		F57227FD23543EC800747F0F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F57227E423543E2B00747F0F /* SimpleGeoCording02Tests.swift */,
-				F57227E623543E2B00747F0F /* Info.plist */,
+				F57227FE23543EC900747F0F /* MapKit.framework */,
 			);
-			path = SimpleGeoCording02Tests;
-			sourceTree = "<group>";
-		};
-		F57227EE23543E2B00747F0F /* SimpleGeoCording02UITests */ = {
-			isa = PBXGroup;
-			children = (
-				F57227EF23543E2B00747F0F /* SimpleGeoCording02UITests.swift */,
-				F57227F123543E2B00747F0F /* Info.plist */,
-			);
-			path = SimpleGeoCording02UITests;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,42 +96,6 @@
 			productReference = F57227CC23543E1D00747F0F /* SimpleGeoCording02.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F57227DF23543E2B00747F0F /* SimpleGeoCording02Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F57227F723543E2B00747F0F /* Build configuration list for PBXNativeTarget "SimpleGeoCording02Tests" */;
-			buildPhases = (
-				F57227DC23543E2B00747F0F /* Sources */,
-				F57227DD23543E2B00747F0F /* Frameworks */,
-				F57227DE23543E2B00747F0F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F57227E223543E2B00747F0F /* PBXTargetDependency */,
-			);
-			name = SimpleGeoCording02Tests;
-			productName = SimpleGeoCording02Tests;
-			productReference = F57227E023543E2B00747F0F /* SimpleGeoCording02Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		F57227EA23543E2B00747F0F /* SimpleGeoCording02UITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F57227FA23543E2B00747F0F /* Build configuration list for PBXNativeTarget "SimpleGeoCording02UITests" */;
-			buildPhases = (
-				F57227E723543E2B00747F0F /* Sources */,
-				F57227E823543E2B00747F0F /* Frameworks */,
-				F57227E923543E2B00747F0F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F57227ED23543E2B00747F0F /* PBXTargetDependency */,
-			);
-			name = SimpleGeoCording02UITests;
-			productName = SimpleGeoCording02UITests;
-			productReference = F57227EB23543E2B00747F0F /* SimpleGeoCording02UITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -193,14 +108,6 @@
 				TargetAttributes = {
 					F57227CB23543E1D00747F0F = {
 						CreatedOnToolsVersion = 10.1;
-					};
-					F57227DF23543E2B00747F0F = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = F57227CB23543E1D00747F0F;
-					};
-					F57227EA23543E2B00747F0F = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = F57227CB23543E1D00747F0F;
 					};
 				};
 			};
@@ -218,8 +125,6 @@
 			projectRoot = "";
 			targets = (
 				F57227CB23543E1D00747F0F /* SimpleGeoCording02 */,
-				F57227DF23543E2B00747F0F /* SimpleGeoCording02Tests */,
-				F57227EA23543E2B00747F0F /* SimpleGeoCording02UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -235,20 +140,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F57227DE23543E2B00747F0F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F57227E923543E2B00747F0F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -261,36 +152,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F57227DC23543E2B00747F0F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F57227E523543E2B00747F0F /* SimpleGeoCording02Tests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F57227E723543E2B00747F0F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F57227F023543E2B00747F0F /* SimpleGeoCording02UITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		F57227E223543E2B00747F0F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F57227CB23543E1D00747F0F /* SimpleGeoCording02 */;
-			targetProxy = F57227E123543E2B00747F0F /* PBXContainerItemProxy */;
-		};
-		F57227ED23543E2B00747F0F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F57227CB23543E1D00747F0F /* SimpleGeoCording02 */;
-			targetProxy = F57227EC23543E2B00747F0F /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F57227D323543E1D00747F0F /* Main.storyboard */ = {
@@ -462,84 +324,6 @@
 			};
 			name = Release;
 		};
-		F57227F823543E2B00747F0F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SimpleGeoCording02Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = dit.co.kr.SimpleGeoCording02Tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleGeoCording02.app/SimpleGeoCording02";
-			};
-			name = Debug;
-		};
-		F57227F923543E2B00747F0F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SimpleGeoCording02Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = dit.co.kr.SimpleGeoCording02Tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleGeoCording02.app/SimpleGeoCording02";
-			};
-			name = Release;
-		};
-		F57227FB23543E2B00747F0F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SimpleGeoCording02UITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = dit.co.kr.SimpleGeoCording02UITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SimpleGeoCording02;
-			};
-			name = Debug;
-		};
-		F57227FC23543E2B00747F0F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SimpleGeoCording02UITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = dit.co.kr.SimpleGeoCording02UITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SimpleGeoCording02;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -557,24 +341,6 @@
 			buildConfigurations = (
 				F57227F523543E2B00747F0F /* Debug */,
 				F57227F623543E2B00747F0F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F57227F723543E2B00747F0F /* Build configuration list for PBXNativeTarget "SimpleGeoCording02Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F57227F823543E2B00747F0F /* Debug */,
-				F57227F923543E2B00747F0F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F57227FA23543E2B00747F0F /* Build configuration list for PBXNativeTarget "SimpleGeoCording02UITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F57227FB23543E2B00747F0F /* Debug */,
-				F57227FC23543E2B00747F0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
