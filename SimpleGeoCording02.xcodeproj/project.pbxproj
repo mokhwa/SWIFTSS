@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F55C9724237934F200014628 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F55C9723237934F100014628 /* CoreLocation.framework */; };
 		F57227D023543E1D00747F0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57227CF23543E1D00747F0F /* AppDelegate.swift */; };
 		F57227D223543E1D00747F0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57227D123543E1D00747F0F /* ViewController.swift */; };
 		F57227D523543E1D00747F0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F57227D323543E1D00747F0F /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F55C9723237934F100014628 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		F57227CC23543E1D00747F0F /* SimpleGeoCording02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleGeoCording02.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F57227CF23543E1D00747F0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F57227D123543E1D00747F0F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F55C9724237934F200014628 /* CoreLocation.framework in Frameworks */,
 				F57227FF23543EC900747F0F /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -71,6 +74,7 @@
 		F57227FD23543EC800747F0F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F55C9723237934F100014628 /* CoreLocation.framework */,
 				F57227FE23543EC900747F0F /* MapKit.framework */,
 			);
 			name = Frameworks;
